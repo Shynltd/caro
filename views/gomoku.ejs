@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <%- include('masterPage/head.ejs'); -%>
+  
+  <body>
+    <%- include('masterPage/narbar.ejs'); -%>
+
+    <div class="container-fluid">
+      <div class="row">
+        
+        <%- include('masterPage/left.ejs'); -%>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4 row">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 col-md-12">
+            <h1 class="h2 center-block">Cờ caro</h1>
+          </div>
+          <div class="col-sm-12">
+            <div id="khung-ban-co-1" class="align-items-center pb-2 mb-3 khung-ban-co">
+            </div>
+            <h3 class="notice-result"></h3>
+            <div class="div-option">
+              <button id="btn-ready-gomoku" type="button" class="btn btn-success btn-play float-left">Chơi Lại</button>
+            </div>
+          </div>
+          <!--<div class="col-sm-4">
+          </div>-->
+        </main>
+      </div>
+    </div>
+
+    <!--myscript-->
+    <script defer src="plugins/jquery/jquery.js"></script>
+    <script defer src="js/processGomoku.js"></script>
+    <script defer src="js/event.js"></script>
+    <!--my css-->
+    <link href="../css/gomoku.css" rel="stylesheet">
+    <%- include('masterPage/bottom.ejs'); -%>
+    
+  </body>
+</html>

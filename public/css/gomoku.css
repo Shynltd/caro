@@ -1,0 +1,146 @@
+.my-tables{
+    border: 1px solid gray;
+    border-left: 0px gray !important;
+    margin: 5px 0px 5px 0px;
+    cursor: pointer;
+}
+.border-left-grey{
+    border-left: 1px solid gray !important;
+}
+.btn-play, .btn-leave{
+    float: right;
+    margin-left: 5px;
+}
+.table-image{
+	width: 100%;
+	height: 100%;
+	object-fit: contain
+}
+.div-option{
+    width: 300px;
+}
+.player{
+	font-size: 12px;
+	text-align: center;
+}
+#div-list-player{
+	border: 1px solid gray;
+	width: 100%;
+    height: 60%;
+    overflow: auto;
+    background-color: rgb(213, 230, 255);
+}
+#div-player{
+	width: 100%;
+	margin-top: 5px;
+	height: 318px;
+}
+#div-convers-player{
+    border: 1px solid gray;
+    border-top: none;
+	width: 100%;
+	height: 40%;
+}
+#div-mess-player{
+    border-bottom: 1px solid gray;
+	width: 100%;
+    height: 80%;
+    overflow: auto;
+    background-color: rgb(255, 254, 211);
+}
+#div-input-mess-player{
+	width: 100%;
+	height: 20%;
+}
+.fa-paper-plane{
+    color: rgb(11, 117, 103);
+}
+.my-table-name-p{
+	text-align: center;
+}
+.my-main{
+	margin-left: 16% !important;
+}
+#input-mess{
+    height: 100%;
+    width: 80%;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    border-right: 1px solid grey;
+}
+#khung-ban-co-1{
+	border-right: none;
+	border-bottom: none;
+}
+#btn-sign-in{
+	cursor: pointer;
+}
+.khung-ban-co{
+	background-color: white;
+	border: solid 0.5px gray;
+	width: 501px;
+	height: 390px;
+	text-align: center;
+	position: relative;
+}
+.notice-result{
+	display: none;
+	position: absolute;
+	opacity: 1 !important;
+    top: 40%;
+	left: 170px;
+	cursor: default;
+}
+.notice-error{
+	color: rgb(185, 14, 14);
+	margin-bottom: 0px;
+	padding-top: 5px;
+	display: none;
+}
+.div-option{
+	position: absolute;
+	top: 0;
+	left: 540px;
+}
+.khung-co{
+	margin-bottom: 0px !important;
+	border-top: none;
+	border-left: none;
+	width: 4%;
+	height: 5.11%;
+	position: static;
+	float: left;
+	background-size: contain;
+	cursor: pointer;
+}
+.khung-co:hover{
+	background-color: rgb(219, 219, 219) !important;
+}
+.p-player-status{
+	float: right;
+	padding: 5px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	color: gray;
+}
+#btn-send-mess{
+    height: 100%;
+    width: 18.6%;
+    background-color: white;
+    border: none;
+}
+.text-mess{
+    padding: 0 5px 0 5px;
+    margin-bottom: 5px;
+}
+@media only screen and (max-width: 767px) {
+    .my-main{
+        margin-left: auto !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .my-tables{
+        border: 1px solid gray !important;
+    }
+}

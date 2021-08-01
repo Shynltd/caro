@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <%- include('masterPage/head.ejs'); -%>
+  
+  <body>
+    <%- include('masterPage/narbar.ejs'); -%>
+
+    <div class="container-fluid">
+      <div class="row">
+        
+        <%- include('masterPage/left.ejs'); -%>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4 row">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 col-md-12">
+            <h1 class="h2 center-block">Cờ tướng</h1>
+          </div>
+          <div class="col-sm-12">
+            <div id="khung-ban-co-2" class="align-items-center pb-2 mb-3 khung-ban-co ban-co">
+              
+            </div>
+            <div class="div-option">
+              <div style="width: 100%;height: 39px;">
+                <button id="btn-ready-xiangqi" type="button" class="btn btn-success btn-play">Chơi Lại</button>
+              </div>
+              <div style="width: 100%;height: 31px;">
+                <p id="p-player-status"></p>
+              </div>
+            </div>
+          </div>
+          <!--<div class="col-sm-4">
+          </div>-->
+        </main>
+      </div>
+    </div>
+
+    <!--myscript-->
+    <script defer src="plugins/jquery/jquery.js"></script>  
+    <script defer src="js/xiangqi.js"></script>
+    <!--my css-->
+    <link href="../css/xiangqi.css" rel="stylesheet">
+    <%- include('masterPage/bottom.ejs'); -%>
+    
+  </body>
+</html>
